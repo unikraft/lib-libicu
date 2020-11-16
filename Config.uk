@@ -1,0 +1,14 @@
+menuconfig LIBICU
+	   bool "ICU - International Components for Unicode"
+	   select LIBPOSIX_LIBDL
+	   select LIBNEWLIBC
+	   select LIBUNWIND
+ 	   select LIBCXXABI
+	   select LIBCXXABI_THREADS
+           select LIBCOMPILER_RT
+	   select LIBCXX
+	   select CXX_THREADS
+	   select LIBPTHREAD_EMBEDDED
+	   select LIBUKMMAP
+	   select LIBPOSIX_SYSINFO
+	   default n
