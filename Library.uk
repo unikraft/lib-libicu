@@ -1,0 +1,6 @@
+name        := "libicu"
+description := "International Components for Unicode"
+gitrepo     := "https://chromium.googlesource.com/chromium/deps/icu.git"
+homepage    := "https://icu.unicode.org/"
+version     := chromium/63staging sha256:ea3dff2a0fcac987c72cf234c0b5be3641cf08752faa9968ecf10de073d04884 https://chromium.googlesource.com/chromium/deps/icu.git/+archive/chromium/63staging.tar.gz
+license     := "Unicode-DFS-2016"
